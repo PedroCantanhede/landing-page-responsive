@@ -1,10 +1,28 @@
-// Função responsável por adicionar ou remover a classe 'scroll' na tag nav
+window.addEventListener('scroll', onScroll);
+onScroll();
 
 function onScroll() {
-    if(scrollY > 0) {
+    showNavOnScroll();
+    showBackToTopButtonOnScroll();
+}
+
+// Função responsável por adicionar ou remover a classe 'scroll' na tag nav
+
+function showNavOnScroll() {
+    if (scrollY > 0) {
         navigation.classList.add('scroll');
     } else {
         navigation.classList.remove('scroll');
+    }
+}
+
+// Função de scroll responsável por voltar para o topo
+
+function showBackToTopButtonOnScroll() {
+    if (scrollY > 500) {
+        backToTopButton.classList.add('show');
+    } else {
+        backToTopButton.classList.remove('show');
     }
 }
 
