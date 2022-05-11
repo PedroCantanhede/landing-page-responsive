@@ -161,8 +161,10 @@ body.menu-expanded #navigation .logo img,
     filter: brightness(100);
 }
 
-#navigation.scroll .open-menu img {
+#navigation.scroll .open-menu img, 
+#navigation.scroll .open-menu path {
     filter: brightness(100);
+    stroke: var(--brand-light-2);
 }
 
 /* -=-=-=-=-=-=- Navigate -=-=-=-=-=-=-*/
@@ -178,7 +180,7 @@ nav {
     z-index: 100;
 }
 
-nav .wrapper {
+nav div.wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
