@@ -17,7 +17,7 @@
 
 # AuroraDev
 
-A AuroraDev é uma aplicação realizada na Next Level Week Return da Rocketseat com intuito de criar uma landing page responsiva e personalizável. Escolhi a Trilha Origin, onde vimos conceitos importantes de HTML, CSS e JavaScript.
+A AuroraDev é um projeto realizado na Next Level Week Return da Rocketseat com intuito de criar uma landing page responsiva e personalizável. Escolhi a Trilha Origin, onde vimos conceitos importantes de HTML, CSS e JavaScript.
 
 <p align="center">
   <img alt="AuroraDev" src="./github/auroradev.png" width="100%">
